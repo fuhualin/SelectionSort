@@ -1,0 +1,6 @@
+for i = 1 to A.length - 1
+    min = i
+    for j = i + 1 to A.length
+        if A[j] < A[min]
+            min = j
+    swap(A[i], A[min])
